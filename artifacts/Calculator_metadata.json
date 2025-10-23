@@ -4,7 +4,86 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_FN",
+						"type": "int256"
+					}
+				],
+				"name": "SetFirstNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_SN",
+						"type": "int256"
+					}
+				],
+				"name": "SetSecondNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "multiplication",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "subtract",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +112,11 @@
 	},
 	"sources": {
 		".git/Calculator/Calculator.sol": {
-			"keccak256": "0xe57a390ecc5d6c73e88575c4e42a4152e7a6133f550209aae3f0c0dbc7dbb358",
+			"keccak256": "0xf2a03bbfef25acb68d7af29d96d34c3a6c82e6e9f237248c630a6319dd2e59ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c5f8b2d9972bd5fe868499b02b37eea40c00ee3aee53ef33461b2451a5749ee",
-				"dweb:/ipfs/QmaZx4ZSYX4UHuxrKpSje9QvV2TCtnc59wym9xLZVajehE"
+				"bzz-raw://ca168ca51e93404b4b5cc0a33672f8bca27663b291dc39806f0201a066c64624",
+				"dweb:/ipfs/QmaEGDqNm2PuPJxX3ukmL21yYHARzGRnJqTgprQQKCcgfX"
 			]
 		}
 	},
